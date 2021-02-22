@@ -1,0 +1,52 @@
+body {
+    background-size: cover;
+    background-image: url("bg1.jpg");
+}
+
+h1 {
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+#myCanvas {
+    background-color: white;
+    border: gray;
+    border-style: ridge;
+    border-width: 5px;
+
+}
+
+button {
+    margin: 5px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: #3e8e41
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+span, button{
+    font-family: 'Patrick Hand', cursive;
+}
+
+input{
+    font-family: 'Patrick Hand', cursive;
+}
